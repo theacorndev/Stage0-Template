@@ -11,7 +11,7 @@ void main() {
 
     // Print the following lines, each with a separate `println()` statement:
     // The robot knows where it is at all times.
-    
+
     System.out.println("The robot knows where it is at all times");
     // It knows this because it knows where it isn't.
 
@@ -36,6 +36,8 @@ void main() {
 
     // Now, change pi to equal 3.142857 (a slightly incorrect approximation of pi
     // equal to 22 divided by 7). Then, print the value of `pi` again.
+    pi = 3.142857;
+    System.out.println(pi);
 
 
     // Create a variable `degrees` of type `double` and assign it a value of
@@ -43,4 +45,6 @@ void main() {
     // (it prints 360.0 with a decimal part, instead of just 360, since the
     // variable uses a data type with decimal parts).
 
+    double degrees = 360;
+    System.out.println(degrees);
 }
